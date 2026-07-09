@@ -168,7 +168,7 @@
   <project path="external/libexif" name="external_libexif" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
-  <project path="external/motorola/faceunlock" name="AtigaOS/external_motorola_faceunlock" remote="gitlab" revision="1.0" />
+  <project path="external/motorola/faceunlock" name="AtigaOS/external/motorola/faceunlock" remote="gitlab" revision="1.0" />
   <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/sonivox" name="external_sonivox" remote="pixel" />
