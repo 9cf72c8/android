@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b ten-plus
+repo init --depth=1 -u https://github.com/9cf72c8/android.git -b pe-ten-plus --git-lfs
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
