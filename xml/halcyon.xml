@@ -90,7 +90,7 @@
 
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gitlab" />
+  <project path="packages/modules/Connectivity" name="9cf72c8/packages_modules_Connectivity" remote="github" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="halcyon" />
 
