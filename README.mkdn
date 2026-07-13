@@ -10,10 +10,10 @@ Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
 
 ### Downloading Halcyon source code
 ```
-repo init -u https://github.com/halcyonproject/manifest -b 16.2 --git-lfs
+repo init --depth=1 -u https://github.com/9cf72c8/android -b halcyon-16.2 --git-lfs
 ```
 ```
-repo sync -j$(nproc --all) --force-sync
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 ```
 
 ### Building Halcyon

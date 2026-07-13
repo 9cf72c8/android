@@ -12,6 +12,10 @@
   <remote  name="halcyon-gitlab"
            fetch="https://gitlab.com/halcyonproject"
            revision="16.2" />
+
+  <remote  name="github"
+           fetch="ssh://git@github.com"
+           revision="halcyon-16.2" />
            
   <remote  name="codeberg"
            fetch="https://codeberg.org"
@@ -37,7 +41,7 @@
   <project path="bionic" name="bionic" remote="halcyon" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="halcyon" />
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
-  <project path="manifest" name="manifest" remote="halcyon" />
+  <project path="manifest" name="9cf72c8/android" remote="github" />
 
   <!-- Device -->
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
