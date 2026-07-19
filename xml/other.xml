@@ -5,6 +5,7 @@
   <project path="build/release" name="android_build_release" remote="lineage" />
 
   <!-- External -->
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
   <project path="external/avb" name="android_external_avb" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="lineage" />
