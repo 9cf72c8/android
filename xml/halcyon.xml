@@ -115,6 +115,8 @@
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
   <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon" />
+  <!--
   <project path="vendor/gms" name="atiga-project/vendor_gms" remote="codeberg" revision="halcyon-16.2" />
+  -->
 
 </manifest>
